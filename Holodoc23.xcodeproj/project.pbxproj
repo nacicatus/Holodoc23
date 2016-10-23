@@ -12,7 +12,37 @@
 		F87D2F721DB62232008FBD3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87D2F701DB62232008FBD3E /* Main.storyboard */; };
 		F87D2F741DB62232008FBD3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87D2F731DB62232008FBD3E /* Assets.xcassets */; };
 		F87D2F771DB62232008FBD3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87D2F751DB62232008FBD3E /* LaunchScreen.storyboard */; };
+		F884EB981DB63B510010DCFB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F884EB971DB63B510010DCFB /* Info.plist */; };
+		F884EB9A1DB63DE40010DCFB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F884EB991DB63DE40010DCFB /* Default-568h@2x.png */; };
+		F8EBE3021DB645EF00F2A6CF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EBE2FE1DB645EF00F2A6CF /* Alamofire.framework */; };
+		F8EBE3031DB645EF00F2A6CF /* Freddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EBE2FF1DB645EF00F2A6CF /* Freddy.framework */; };
+		F8EBE3041DB645EF00F2A6CF /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EBE3001DB645EF00F2A6CF /* RestKit.framework */; };
+		F8EBE3051DB645EF00F2A6CF /* TextToSpeechV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EBE3011DB645EF00F2A6CF /* TextToSpeechV1.framework */; };
+		F8EBE3061DB6470A00F2A6CF /* Freddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EBE2FF1DB645EF00F2A6CF /* Freddy.framework */; };
+		F8EBE3071DB6470A00F2A6CF /* Freddy.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8EBE2FF1DB645EF00F2A6CF /* Freddy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8EBE3081DB6472A00F2A6CF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EBE2FE1DB645EF00F2A6CF /* Alamofire.framework */; };
+		F8EBE3091DB6472A00F2A6CF /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8EBE2FE1DB645EF00F2A6CF /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8EBE30A1DB6472A00F2A6CF /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EBE3001DB645EF00F2A6CF /* RestKit.framework */; };
+		F8EBE30B1DB6472A00F2A6CF /* RestKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8EBE3001DB645EF00F2A6CF /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8EBE30C1DB6472A00F2A6CF /* TextToSpeechV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EBE3011DB645EF00F2A6CF /* TextToSpeechV1.framework */; };
+		F8EBE30D1DB6472A00F2A6CF /* TextToSpeechV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8EBE3011DB645EF00F2A6CF /* TextToSpeechV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F884EBC71DB63EF90010DCFB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F8EBE3071DB6470A00F2A6CF /* Freddy.framework in CopyFiles */,
+				F8EBE3091DB6472A00F2A6CF /* Alamofire.framework in CopyFiles */,
+				F8EBE30B1DB6472A00F2A6CF /* RestKit.framework in CopyFiles */,
+				F8EBE30D1DB6472A00F2A6CF /* TextToSpeechV1.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F87D2F691DB62232008FBD3E /* Holodoc23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Holodoc23.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,7 +51,12 @@
 		F87D2F711DB62232008FBD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F87D2F731DB62232008FBD3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F87D2F761DB62232008FBD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F87D2F781DB62232008FBD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F884EB971DB63B510010DCFB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F884EB991DB63DE40010DCFB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		F8EBE2FE1DB645EF00F2A6CF /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		F8EBE2FF1DB645EF00F2A6CF /* Freddy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Freddy.framework; path = Carthage/Build/iOS/Freddy.framework; sourceTree = "<group>"; };
+		F8EBE3001DB645EF00F2A6CF /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
+		F8EBE3011DB645EF00F2A6CF /* TextToSpeechV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TextToSpeechV1.framework; path = Carthage/Build/iOS/TextToSpeechV1.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +64,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8EBE3061DB6470A00F2A6CF /* Freddy.framework in Frameworks */,
+				F8EBE3081DB6472A00F2A6CF /* Alamofire.framework in Frameworks */,
+				F8EBE30A1DB6472A00F2A6CF /* RestKit.framework in Frameworks */,
+				F8EBE30C1DB6472A00F2A6CF /* TextToSpeechV1.framework in Frameworks */,
+				F8EBE3031DB645EF00F2A6CF /* Freddy.framework in Frameworks */,
+				F8EBE3021DB645EF00F2A6CF /* Alamofire.framework in Frameworks */,
+				F8EBE3041DB645EF00F2A6CF /* RestKit.framework in Frameworks */,
+				F8EBE3051DB645EF00F2A6CF /* TextToSpeechV1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				F87D2F6B1DB62232008FBD3E /* Holodoc23 */,
+				F884EB9C1DB63E6E0010DCFB /* Frameworks */,
 				F87D2F6A1DB62232008FBD3E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +98,34 @@
 		F87D2F6B1DB62232008FBD3E /* Holodoc23 */ = {
 			isa = PBXGroup;
 			children = (
-				F87D2F6C1DB62232008FBD3E /* AppDelegate.swift */,
 				F87D2F6E1DB62232008FBD3E /* ViewController.swift */,
 				F87D2F701DB62232008FBD3E /* Main.storyboard */,
-				F87D2F731DB62232008FBD3E /* Assets.xcassets */,
-				F87D2F751DB62232008FBD3E /* LaunchScreen.storyboard */,
-				F87D2F781DB62232008FBD3E /* Info.plist */,
+				F884EB9B1DB63E220010DCFB /* Supporting Files */,
 			);
 			path = Holodoc23;
+			sourceTree = "<group>";
+		};
+		F884EB9B1DB63E220010DCFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F87D2F6C1DB62232008FBD3E /* AppDelegate.swift */,
+				F884EB991DB63DE40010DCFB /* Default-568h@2x.png */,
+				F87D2F731DB62232008FBD3E /* Assets.xcassets */,
+				F87D2F751DB62232008FBD3E /* LaunchScreen.storyboard */,
+				F884EB971DB63B510010DCFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F884EB9C1DB63E6E0010DCFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8EBE2FE1DB645EF00F2A6CF /* Alamofire.framework */,
+				F8EBE2FF1DB645EF00F2A6CF /* Freddy.framework */,
+				F8EBE3001DB645EF00F2A6CF /* RestKit.framework */,
+				F8EBE3011DB645EF00F2A6CF /* TextToSpeechV1.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +138,7 @@
 				F87D2F651DB62232008FBD3E /* Sources */,
 				F87D2F661DB62232008FBD3E /* Frameworks */,
 				F87D2F671DB62232008FBD3E /* Resources */,
+				F884EBC71DB63EF90010DCFB /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -96,6 +161,7 @@
 				TargetAttributes = {
 					F87D2F681DB62232008FBD3E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XSB6YPP53Z;
 					};
 				};
 			};
@@ -122,8 +188,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F884EB981DB63B510010DCFB /* Info.plist in Resources */,
 				F87D2F771DB62232008FBD3E /* LaunchScreen.storyboard in Resources */,
 				F87D2F741DB62232008FBD3E /* Assets.xcassets in Resources */,
+				F884EB9A1DB63DE40010DCFB /* Default-568h@2x.png in Resources */,
 				F87D2F721DB62232008FBD3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,10 +317,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Holodoc23/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saurabhsikka.Holodoc23;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,10 +335,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Holodoc23/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saurabhsikka.Holodoc23;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,6 +368,7 @@
 				F87D2F7D1DB62232008FBD3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
